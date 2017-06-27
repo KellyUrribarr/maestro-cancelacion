@@ -1,4 +1,4 @@
-$(document).ready(function (){
+/*$(document).ready(function (){
   $('#inputGroupSuccess3').keyup(function(){
    inputGroupSuccess3.value = (inputGroupSuccess3.value + '');
  });
@@ -27,6 +27,7 @@ $("#ingresarBuscar").click(function(){
 }
 
 });
+*/
 
 
 function main() {
