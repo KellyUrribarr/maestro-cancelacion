@@ -52,13 +52,16 @@ element.style {
     border-radius: 7px;
 }
 
-#paddi{
-	margin-top: 2em;
-}
-
 #margen-q{
+
 	margin-top: 1em;
 }
+
+
+.blanco{
+	border-color: transparent;
+}
+
 
 #margen-{
 	margin-bottom: 3em;
