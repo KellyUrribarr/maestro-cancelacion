@@ -52,6 +52,10 @@ element.style {
     border-radius: 7px;
 }
 
+#paddi{
+	margin-top: 2em;
+}
+
 #margen-q{
 	margin-top: 2em;
 }
@@ -79,7 +83,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', end
 	padding: 1em;
 }
 
-
+#paddi{}
 
 .titulo_01{
 	padding-top: 2em;

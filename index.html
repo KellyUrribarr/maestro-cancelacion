@@ -113,7 +113,7 @@
             <p><b>Contactos<b></p>
             <p>
               <button id="contactos">
-                <i class="fa fa-file-text-o" aria-hidden="true" onclick="mostrarContactos()"></i>
+                <i class="fa fa-user" aria-hidden="true" onclick="mostrarContactos()"></i>
               </button>
             </p>
       
@@ -222,6 +222,7 @@ function mostrarError(){
   <div class="contactoo">
     <div class="row">
         <div class="col-xs-12 col-md-12">
+        <br>
         <p style="text-align: center;"><b>PopUP</b></p>
         <hr>
         <br>
@@ -487,20 +488,135 @@ function mostrarError(){
 <!--proceso-->
       <br>
       <br>
-      <div class="col-md-6">
+      <div id="margen-q" class="row">
+        <div class="col-md-6">
         <p style="text-align: center;"><b>Descripción Incidencia</b></p>
         <hr>
         <p class="bg-success texto">Se cancelo proceso KONDOR se indica dar FORCE OK</p>
+        
+
+      </div>
+
+      <div class="col-md-6">
+     
         <p style="text-align: center;"><b>Solución</b></p>
         <hr>
         <p class="bg-success texto">Se escala tema con jorge santana maya controlM</p>
         <input id="cerrar" class="btn btn-info" type="button" value="Enviar correo">
 
          <input id="cerrarErrores" class="btn btn-info" type="button" value="Ver diccionaio de errores" onclick="mostrarErrores()">
+      
+        </div>
+      </div>
+      
+
+      <div id="margen-q" class="row">
+         <div class="col-md-6">
+
+          <p id="paddi" style="text-align: center;"><b>Se escalo al cliente</b></p>
+          <hr>
+           
+           <div class="radio">
+           <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Si (Indicar nombre)
+            </label>
+           </div>
+           <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked>No 
+            </label>
+            <input class="form-control" type="text" placeholder="Nombre">
+          </div>
+             <br>    
+            <br> 
+
+        </div>
+        <div class="col-md-6">
+
+          <p id="paddi" style="text-align: center;"><b>Incidencia pertenece a la linea de servicio</b></p>
+          <hr>
+           
+           <div class="radio">
+           <label>
+              <input type="radio" name="optionsRadios01" id="optionsRadios10" value="option10" checked>Si 
+            </label>
+           </div>
+           <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios01" id="optionsRadios20" value="option20" checked>No (Justificar) 
+            </label>
+            <input class="form-control" type="text" placeholder="Nombre">
+          </div>
+             <br>    
+            <br> 
+
+        </div>
+      </div>
+
+      <div id="margen-q" class="row">
+         <div class="col-md-6">
+
+          <p id="paddi" style="text-align: center;"><b>Checklist de Apoyo</b></p>
+          <hr>
+           
+           <div class="radio">
+          
+            <label>
+              <input type="radio" name="optionsRadios_2" id="optionsRadios001" value="option001" checked>
+               Escalamiento desde holding
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios_2" id="optionsRadios002" value="option002" checked>Ruta Critica
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios_2" id="optionsRadios002" value="option002" checked>Intervino Gestgar
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios_2" id="optionsRadios002" value="option002" checked>
+             Intervino D&D
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios_2" id="optionsRadios002" value="option002" checked>Intervino D&D Fuera de tiempo resolución
+            </label>
+          </div>
+          
+        </div>
+        <div class="col-md-6">
+          <p id="paddi" style="text-align: center;"><b>Adjuntar</b></p>
+          <hr>
+          <form name="formulario" action="envio.php" method="post" enctype="multipart/form-data">
+           <input id="cerrar" name="archivo" type="file" size="20"> 
+          </form>
+
+          <br>
+          <br>    
+          <br> 
+          
+             <input id="cerrar" class="btn btn-info" type="button" value="Guardar">
+             <input id="cerrar" class="btn btn-info" type="button" value="Nuevo">
+        </div>
+
+        </div>
 
       </div>
+
+
+<!--
       <div class="col-md-6">
-          <p style="text-align: center;"><b>Se escalo al cliente</b></p>
+
+          <p id="paddi" style="text-align: center;"><b>Se escalo al cliente</b></p>
+          <hr>
            
            <div class="radio">
            <label>
@@ -590,7 +706,7 @@ function mostrarError(){
 
 
        
-        
+        -->
       </div>
       <div id="contactoGeneralErrores">
       <div  id="hola" class="container">
