@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maestro de cancelación</title>
+    
+    <!-- Favicons
+    ================================================== -->
+   
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.2.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/jasny-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/tipografiaAccenture/1611-ZOGSJS.css">
+
+    <!-- Slider
+    ================================================== -->
+    <link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+    <link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+    <!-- Stylesheet
+    ================================================== -->
+    <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+
+
+<!-- buscar -->
+<div class="container caja">
+  <div class="row">
+    <div class="block">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <form class="form-inline">
+ 
+</form>
+        <div class="col-md-12">
+
+
+          <form class="form-style-7">
+          <ul>
+          <li>
+              <label for="name">Proceso</label>
+
+              <input type="text" minlength="4" maxlength="200" class="form-control" id="inputGroupSuccess3" placeholder="Ingresar aquí" aria-describedby="inputGroupSuccess3Status">
+
+            <input id="ingresarBuscar" class="btn btn-info" type="button" value="Buscar">
+          
+              
+          </li>
+          
+          
+          </ul>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</form>
+  <div id="hola" class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-2">
+          <div class="tamaño_tipografia">
+            <p><b>Grupo resolutor/torre</b></p>
+            <p>Finanzas</p>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="tamaño_tipografia">
+            <p><b>Jb/Tarea</b></p>
+            <p>BC-CRM-A-DDW077</p>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p><b>Aplicación</b></p>
+            <p>Kandor</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="tamaño_tipografia">
+            <p><b>Malla</b></p>
+            <p>PRD_INV_FILIALES - CIERRE-FILIALES</p>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p><b>Especialistas</b></p>
+            <p>Jorge Santana</p>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p><b>Encolamiento</b></p>
+            <p>Mauricio Vergara</p>
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p><b>Contactos<b></p>
+            <p>
+              <button id="contactos">
+                <i class="fa fa-file-text-o" aria-hidden="true" onclick="mostrarContactos()"></i>
+              </button>
+            </p>
+      
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p><b>Historial</b></p>
+            <p><button id="contactos"><i class="fa fa-file-text-o" aria-hidden="true" onclick="mostrarHistorial()"></i></button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+
+<script>
+$(document).ready(function(){
+    
+        $("#hola").hide();
+        
+});
+
+
+function mostrarHola(){
+
+          $("#hola").show("slow");
+         
+}
+
+
+$(document).ready(function(){
+    
+        $("#contactoGeneral").hide();
+        
+});
+
+
+function mostrarContactos(){
+
+          $("#contactoGeneral").show("slow");
+         
+}
+
+function cerrarContactos(){
+
+          $("#contactoGeneral").hide("slow");
+         
+}
+
+$(document).ready(function(){
+    
+        $("#mostrarHistoria").hide();
+        
+});
+
+
+
+function mostrarHistorial(){
+
+          $("#mostrarHistoria").show("slow");
+         
+}
+
+$(document).ready(function(){
+    
+        $("#proceso").hide();
+        
+});
+
+
+
+function mostrarProceso(){
+
+          $("#proceso").show("slow");
+         
+}
+
+
+
+
+
+
+
+</script>
+
+<div id="contactoGeneral">
+  <div class="container contactos">
+  <div class="contactoo">
+    <div class="row">
+        <div class="col-xs-12 col-md-12">
+        <p style="text-align: center;"><b>PopUP</b></p>
+        <hr>
+        <br>
+        
+          <div class="col-xs-3 col-md-3">
+            <p id="fondo"><b>Nombre</b></p>
+            <p class="des">Jorge Santana</p>
+          </div>
+
+          <div class="col-xs-3 col-md-3">
+            <p id="fondo"><b>Fono</b></p>
+            <p class="des">99874234</p>
+          </div>
+
+          <div class="col-xs-6 col-md-6">
+            <p id="fondo"><b>Mail</b></p>
+            <p class="des">jsantana@security.cl</p>
+
+      </div>
+
+      <input id="cerrar" class="btn btn-info" type="button" value="Cerrar" onclick="cerrarContactos()" >
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+
+  <div id="mostrarHistoria">
+   <div id="hola" class="container margin">
+
+    <div class="row">
+    
+      <div class="col-md-12">
+      <p style="text-align: center;"><b>Historial</b></p>
+        <hr>
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p ><b>Fecha incidencia</b></p>
+          
+
+            <div class="tamaño_tipografia">
+            <p>05 -06 -2017</p>
+          </div>
+     
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="tamaño_tipografia">
+
+            <p><b>Descripción incidencia</b></p>
+              <br>
+               <div class="tamaño_tipografia">
+            <p>Se cancelo proceso KONDOR se indica dar force OK</p>
+          </div>
+         
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="tamaño_tipografia">
+            <p ><b>Fecha solución</b></p>
+            <br>
+            <div class="tamaño_tipografia">
+            <p>05- 06- 2017</p>
+          </div>
+            
+         </div>
+        </div>
+        <div class="col-md-2">
+          <div class="tamaño_tipografia">
+            <p><b>tipo de solución</b></p>
+            <br>
+              <div class="tamaño_tipografia">
+              <p>Solicitud puntual</p>
+          </div>
+       
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="tamaño_tipografia">
+            <p ><b>Solución</b></p>
+            <div class="tamaño_tipografia">
+            <br>
+            <p>Se escala tema con jorge santana malla controlM</p>
+          </div>
+          
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p><b>Resolutor</b></p>
+            <br>
+              <div class="tamaño_tipografia">
+            <p>Jorge Santana</p>
+          </div>
+         
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p ><b>Documentos Adjuntados</b></p>
+            <div class="tamaño_tipografia">
+            <br>
+
+
+            <p><button id="contactos"><i class="fa fa-download" aria-hidden="true" onclick="mostrarProceso()"></i></button>
+            </p>
+
+  
+          </div>
+
+          
+          </div>
+        </div>
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p ><b>Detalle</b></p>
+            <br>
+            <br>
+            <div class="tamaño_tipografia">
+            <p><i class="fa fa-search" aria-hidden="true"></i></i>
+            </p>
+          </div>
+            
+        
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  <div id="proceso">
+  <div  id="hola" class="container">
+  <p style="text-align: center;"><b>Documentos Adjuntos</b></p>
+  <hr>
+    <div class="row">
+      <div class="col-md-3">
+        
+          <h4 class="titulo"><b>Proceso</b></h4>
+          <input class="form-control" type="text" placeholder="BC-CRM-A-DDW077">
+        
+      </div>
+      <div class="col-md-4">
+        
+          <h4 class="titulo"><b>Malla</b></h4>
+          <select class="form-control">Seleccionar</select>
+        
+      </div>
+      <div class="col-md-3">
+
+          <h4 class="titulo"><b>Grupo trabajo/Torre</b></h4>
+          <select class="form-control">Seleccionar</select>
+
+      </div>
+      <div id="margen-" class="col-md-2">
+
+          <h4 class="titulo"><b>Aplicación</b></h4>
+          <select class="form-control">Seleccionar</select>
+
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+        
+          <h4 class="titulo"><b>Operador/ explotador</b></h4>
+          <select class="form-control">Seleccionar</select>
+          
+        
+      </div>
+      <div class="col-md-2">
+        
+          <h4 class="titulo"><b>Guardia</b></h4>
+          <br>
+          <select class="form-control">Seleccionar</select>
+         
+        </div>
+    
+      <div class="col-md-4">
+        
+          <h4 class="titulo"><b>Especialista Torre</b></h4>
+          <br>
+          <select class="form-control">Seleccionar</select>
+          
+        </div>
+   
+      <div class="col-md-2">
+        
+          <h4 class="titulo"><b>Resolutor</b></h4>
+          <br>
+          <select class="form-control">Seleccionar</select>
+          
+        </div>
+    
+       <div class="col-md-2">
+        
+          <h4 class="titulo"><b>Prioridad</b></h4>
+          <br>
+          <select class="form-control">Seleccionar</select>
+          
+        </div>
+    </div>
+<!--proceso-->
+    <div id="margen-q" class="row">
+      
+        <div class="col-md-6">
+        
+          <div class="col-md-4">
+          <br>
+          <br>
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <p class="pad"><em>Fecha/Hora Recepción</em></p>
+              <input type="date" name="fecha">
+          </div>
+
+          <div class="col-md-4">
+          <br>
+          <br>
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <p class="pad"><em>Fecha/Hora Solucion</em></p>
+            <input type="date" name="fecha">
+          </div>
+      
+          <div class="col-md-4">
+          <br>
+          <br>
+            <i class="fa fa-calendar" aria-hidden="true"></i>
+            <p class="pad"><em>Fecha/Hora Asignación</em></p>
+            <input type="date" name="fecha">
+          </div>
+
+        </div>
+
+        <div class="col-md-6">
+          <br>
+          <br>
+            <div class="col-md-4">
+                <span ><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                <p class="pad"><em>Horas incurridas</em></p>
+                <input class="form-control" type="text" placeholder="2,5">
+            </div>
+
+            <div class="col-md-4">
+              <i class="fa fa-ticket" aria-hidden="true"></i>
+              <p class="pad"><em>N° Ticket</em></p>
+              <input class="form-control" type="text" placeholder="IM278036">
+            </div>
+        
+            <div class="col-md-4">
+              <i class="fa fa-ticket" aria-hidden="true"></i>
+              <p class="pad"><em>N° ARS</em></p>
+              <input class="form-control" type="text" placeholder="2,5">
+            </div>
+        </div>
+      </div>
+
+<!--proceso-->
+      <br>
+      <br>
+      <div class="col-md-6">
+        <p style="text-align: center;"><b>Descripción Incidencia</b></p>
+        <hr>
+        <p class="bg-success texto">Se cancelo proceso KONDOR se indica dar FORCE OK</p>
+        <p style="text-align: center;"><b>Solución</b></p>
+        <hr>
+        <p class="bg-success texto">Se escala tema con jorge santana maya controlM</p>
+        <input id="cerrar" class="btn btn-info" type="button" value="Enviar correo">
+         <input id="cerrar" class="btn btn-info" type="button" value="Ver diccionaio de errores">
+
+      </div>
+      <div class="col-md-6">
+          <p style="text-align: center;"><b>Se escalo al cliente</b></p>
+           
+           <div class="radio">
+           <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>Si (Indicar nombre)
+            </label>
+           </div>
+           <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked>No 
+            </label>
+            <input class="form-control" type="text" placeholder="Nombre">
+          </div>
+             <br>    
+            <br> 
+
+        <div>
+          <p style="text-align: center;"><b>Incidencia pertenece a la linea de servicio</b></p>
+          
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios_1" id="optionsRadios01" value="option01" checked>Si
+            </label>
+          </div>
+
+           <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios_1" id="optionsRadios02" value="option02" checked>No (Justificar)
+            </label>
+          </div>
+
+          <input class="form-control" type="text" placeholder="Nombre">
+          <br>    
+          <br>
+        </div>
+      </div>
+       
+
+        <div>
+          <br>
+         
+          <p style="text-align: center;"><b>Checklist de Apoyo</b></p>
+          <br>    
+          <br>
+          <div class="radio">
+          
+            <label>
+              <input type="radio" name="optionsRadios_2" id="optionsRadios001" value="option001" checked>
+               Escalamiento desde holding
+            </label>
+          </div>
+        </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios_2" id="optionsRadios002" value="option002" checked>Ruta Critica
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios_2" id="optionsRadios002" value="option002" checked>Intervino Gestgar
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios_2" id="optionsRadios002" value="option002" checked>
+             Intervino D&D
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios_2" id="optionsRadios002" value="option002" checked>Intervino D&D Fuera de tiempo resolución
+            </label>
+          </div>
+        <br>    
+        <br>
+        <form name="formulario" action="envio.php" method="post" enctype="multipart/form-data">
+         <input id="cerrar" name="archivo" type="file" size="20"> 
+        </form>
+
+        <br>
+        
+           <input id="cerrar" class="btn btn-info" type="button" value="Guardar">
+           <input id="cerrar" class="btn btn-info" type="button" value="Nuevo">
+
+
+       
+        
+      </div>
+      <div id="contactoGeneral">
+      <div  id="hola" class="container">
+        <br>
+        <div class="col-xs-12 col-md-12">
+        <p style="text-align: center;"><b>Diccionario de errores</b></p>
+        <hr>
+        <br>
+      
+        
+          <div class="col-xs-3 col-md-3">
+            <h4 class="titulo"><b>Tipo</b></h4>
+            <select class="form-control">Todos</select>
+          </div>
+
+          <div class="col-xs-3 col-md-3">
+            <h4 class="titulo"><b>Códigos</b></h4>
+            <select class="form-control">Todos</select>
+          </div>
+
+          <div class="col-xs-6 col-md-6">
+
+      </div>
+
+      <div class="col-xs-12 col-md-12">
+        
+        <br>
+        <br>
+        <br>
+
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p><b>Tipo</b></p>
+            <p>CICS</p>
+          </div>
+        </div>
+
+        <div class="col-md-1">
+          <div class="tamaño_tipografia">
+            <p><b>Códigos</b></p>
+            <p>0C4</p>
+          </div>
+        </div>
+
+        <div class="col-md-10">
+          <div class="tamaño_tipografia">
+            <p><b>Descripción detallada error</b></p>
+            <p>Error de datos especificados o mal direccionamiento puede faltar la PARM o tener problemas de protección.</p>
+          </div>
+
+      <input id="cerrar" class="btn btn-info" type="button" value="Atrás" onclick="cerrarContactos()" >
+        </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  
+    <div id="contactoGeneral">
+    <div  id="hola" class="container">
+      <div class="contactoo">
+
+    <br>
+        <div class="col-xs-12 col-md-12">
+        <p style="text-align: center;"><b>Correo termino cancelación</b></p>
+        <hr>
+        <br>
+        <br>
+          <div class="col-xs-12 col-md-12">
+            <p>Estimados <br> Adjunto resumen de ñas cancelaciones atendidas por Accenture</p>
+          </div>
+
+          <div class="col-xs-12 col-md-1">
+            <h4 class="titulo"><b>Inicio</b></h4>
+            <p>00:30</p>
+            
+          </div>
+
+          <div class="col-xs-12 col-md-2">
+            <h4 class="titulo"><b>Aplicación</b></h4>
+            <p>Sistema de credito hipotecario.</p>
+          </div>
+
+          <div class="col-xs-12 col-md-1">
+            <h4 class="titulo"><b>Proceso</b></h4>
+            <p>SCHJ452</p>
+          </div>
+
+          <div class="col-xs-12 col-md-1">
+            <h4 class="titulo"><b>Estado</b></h4>
+            <p>Finalizado</p>
+          </div>
+
+          <div class="col-xs-12 col-md-1">
+            <h4 class="titulo"><b>Fin</b></h4>
+            <p>3:03</p>
+          </div>
+
+          <div class="col-xs-12 col-md-6">
+            <h4 class="titulo"><b>Detalle</b></h4>
+            <p>Explotador informa cancelación del proceso en SC452020 STAR O READ no encontrado en archivo SCHM017 - 1GR Prioridad 2 código blanco (20421) se analiza cancelación y se determina omitir registro. Reprocesando completo el proceso</p>
+          </div>
+
+          <div class="col-xs-12 col-md-12">
+            <p>ATT <br> Accenture Chile</p>
+          </div>
+
+          <div class="col-xs-6 col-md-6">
+
+      </div>
+
+      <div class="col-xs-12 col-md-12">
+        
+        <br>
+        <br>
+        <br>
+
+
+      <input id="cerrar" class="btn btn-info" type="button" value="Atrás" onclick="cerrarContactos()" >
+        </div>
+
+    </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/jasny-bootstrap.min.js"></script>
+
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/typed.js"></script>
+    <script>
+      $(function(){
+          $("#head-title").typed({
+            strings: ["We make websites^1000", "24/7 available for hire^1000" ,"Web design with diffence^1000"],
+            typeSpeed: 100,
+            loop: true,
+            startDelay: 100
+          });
+      });
+    </script>
+
+    <!-- Javascripts
+    ================================================== -->
+
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    
+    
+  </body>
+</html>
